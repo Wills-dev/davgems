@@ -1,10 +1,12 @@
 .main {
-  width: 100vw;
+  /* width: 100vw; */
   position: relative;
 }
 
 .main-body {
-  margin: 1rem 20rem;
+  /* margin: 1rem 20rem; */
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .title-ctn {
@@ -12,11 +14,39 @@
   color: #282828;
 }
 
+.default-nav {
+  display: none !important;
+}
+
 .slide-container,
 .each-slide,
 .each-slide > img {
   width: 100%;
   height: 100%;
+}
+
+.first-title {
+  color: #373946;
+  direction: ltr;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.2em;
+}
+
+.second-title {
+  font-size: 30px;
+  color: #373946;
+  direction: ltr;
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  font-style: normal;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: initial;
+  opacity: 0.5;
 }
 
 .about-us-ctn {
@@ -43,15 +73,91 @@
 .journey {
   display: flex;
   width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.journey-ima-ctn {
+  width: 50%;
+  /* height: 30rem; */
+  margin: 0;
+  padding: 0;
+}
+
+.image-one {
+  background-image: url(../assets/images/istockphoto-3.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-two {
+  background-image: url(../assets/images/istockphoto-3.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-three {
+  background-image: url(../assets/images/istockphoto-3.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-four {
+  background-image: url(../assets/images/istockphoto-5.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.journey-wrapper {
+  width: 50%;
+  margin: 0;
+  padding: 0;
 }
 
 .journey-paragraph-ctn {
-  margin: 0 2rem;
+  width: 100%;
+}
+
+.journey-country {
+  color: #373946;
+  direction: ltr;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  padding: 0 2rem;
+}
+
+.journey-paragraph {
+  color: #373946;
+  direction: ltr;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  padding: 0 2rem;
+  opacity: 0.5;
 }
 
 .certification {
   width: 100%;
-  text-align: center;
-  background-color: rgb(244, 238, 232);
+  background-color: #f5f1f1;
   padding: 40px 0;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certification > p {
+  max-width: 514px;
+  width: calc(100% - 178px);
+  text-align: center;
+  font-size: 24px;
+  font-family: "EB Garamond", serif;
+  color: #373946;
 }
