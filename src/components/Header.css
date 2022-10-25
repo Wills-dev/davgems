@@ -1,0 +1,31 @@
+.header-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-ctn {
+  font-size: 40px;
+  padding: 2rem 0 0 0;
+}
+
+.logo-ctn a {
+  color: #282828;
+}
+
+.nav-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c7b7b;
+}
+.nav-ctn a {
+  color: #9c9999;
+  padding: 2rem;
+}
