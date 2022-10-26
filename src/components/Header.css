@@ -27,5 +27,11 @@ a {
 }
 .nav-ctn a {
   color: #9c9999;
-  padding: 2rem;
+  margin: 2rem;
+}
+
+.nav-ctn a:active,
+.nav-ctn a:hover {
+  color: #282828;
+  border-bottom: 1px solid #282828;
 }

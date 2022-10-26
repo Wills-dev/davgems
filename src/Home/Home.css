@@ -120,6 +120,7 @@
 
 .journey-paragraph-ctn {
   width: 100%;
+  padding: 1rem 0rem 2rem 0rem;
 }
 
 .journey-country {
@@ -160,4 +161,44 @@
   font-size: 24px;
   font-family: "EB Garamond", serif;
   color: #373946;
+}
+
+.quote {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote > p {
+  margin-top: 3rem;
+  max-width: 514px;
+  width: calc(100% - 178px);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: #373946;
+  text-align: center;
+}
+
+.quote-img-ctn {
+  display: flex;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.quote-img-one {
+  width: 50%;
+  height: 30rem;
+  background-image: url(../assets/images/istockphoto-5.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.quote-img-two {
+  width: 50%;
+  background-image: url(../assets/images/istockphoto-6.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
