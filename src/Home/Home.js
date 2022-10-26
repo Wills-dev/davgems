@@ -340,6 +340,97 @@ const Home = () => {
             <div className="about-us">Browse...</div>
           </Link>
         </div>
+        <div className="title-ctn">
+          <h2 className="first-title">Contact us</h2>
+          <h1 className="third-title">
+            We will be happy to assist you with any enquiries you may have.
+          </h1>
+        </div>
+        {/* <div class="right-contact">
+          <form
+            action="https://formsubmit.co/9c6627f03cbc16fa160084eb322cb2a6"
+            method="POST"
+            class="contact-form"
+          > */}
+        {/* honeypot */}
+        {/* <input type="text" name="_honey" style="display: none;" /> */}
+        {/* disable captcha */}
+        {/* <input type="hidden" name="_captcha" value="false" /> */}
+        {/* thank you message link */}
+        {/* <input
+              type="hidden"
+              name="_next"
+              value="https://wills-dev.github.io/Victor-portfolio/contact.html"
+            />
+            <div class="input-control your-details">
+              <input
+                type="text"
+                name="names"
+                required
+                placeholder="Enter Your Name"
+              />
+              <input
+                type="text"
+                name="Email"
+                required
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div class="input-control">
+              <input
+                type="text"
+                name="Subject"
+                required
+                placeholder="Enter Subject"
+              />
+            </div>
+            <div class="input-control">
+              <textarea
+                name="comments,&nbsp;questions"
+                id=""
+                cols="20"
+                rows="8"
+                placeholder="enter message here..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span class="btn-text">Submit</span>
+            </button>
+          </form>
+        </div> */}
+        <div className="form-ctn">
+          <form>
+            <div className="form-wrapper">
+              <div className="form-first-row">
+                <div className="first-row first-column">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" required />
+                </div>
+                <div className="first-row second-column">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" required />
+                </div>
+                <div className="first-row third-column">
+                  <label for="number">Phone No</label>
+                  <input type="text" id="name" required />
+                </div>
+              </div>
+              <div className="form-second-row">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  required
+                  placeholder="Enter a message"
+                ></textarea>
+              </div>
+              <p>
+                By submitting this form I concent to your{" "}
+                <Link to="/">privacy policy.</Link>
+              </p>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );
