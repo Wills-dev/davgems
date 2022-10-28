@@ -349,78 +349,26 @@ const Home = () => {
             We will be happy to assist you with any enquiries you may have.
           </h1>
         </div>
-        {/* <div class="right-contact">
-          <form
-            action="https://formsubmit.co/9c6627f03cbc16fa160084eb322cb2a6"
-            method="POST"
-            class="contact-form"
-          > */}
-        {/* honeypot */}
-        {/* <input type="text" name="_honey" style="display: none;" /> */}
-        {/* disable captcha */}
-        {/* <input type="hidden" name="_captcha" value="false" /> */}
-        {/* thank you message link */}
-        {/* <input
-              type="hidden"
-              name="_next"
-              value="https://wills-dev.github.io/Victor-portfolio/contact.html"
-            />
-            <div class="input-control your-details">
-              <input
-                type="text"
-                name="names"
-                required
-                placeholder="Enter Your Name"
-              />
-              <input
-                type="text"
-                name="Email"
-                required
-                placeholder="Enter Your Email"
-              />
-            </div>
-            <div class="input-control">
-              <input
-                type="text"
-                name="Subject"
-                required
-                placeholder="Enter Subject"
-              />
-            </div>
-            <div class="input-control">
-              <textarea
-                name="comments,&nbsp;questions"
-                id=""
-                cols="20"
-                rows="8"
-                placeholder="enter message here..."
-              ></textarea>
-            </div>
 
-            <button type="submit" class="submit-btn">
-              <span class="btn-text">Submit</span>
-            </button>
-          </form>
-        </div> */}
         <div className="form-ctn">
           <form>
             <div className="form-wrapper">
               <div className="form-first-row">
                 <div className="first-row first-column">
-                  <label for="name">Name</label>
+                  <label htmlFor="name">Name</label>
                   <input type="text" id="name" required />
                 </div>
                 <div className="first-row second-column">
-                  <label for="email">Email</label>
+                  <label htmlFor="email">Email</label>
                   <input type="email" id="email" required />
                 </div>
                 <div className="first-row third-column">
-                  <label for="number">Phone No</label>
+                  <label htmlFor="number">Phone No</label>
                   <input type="text" id="name" required />
                 </div>
               </div>
               <div className="form-second-row">
-                <label for="message">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea id="message" required cols="20" rows="8"></textarea>
               </div>
               <p className="privacy-policy">
@@ -433,7 +381,7 @@ const Home = () => {
             </div>
           </form>
         </div>
-        <div className="partners">
+        {/* <div className="partners">
           <div className="address">
             <div className="logo">
               {" "}
@@ -461,31 +409,32 @@ const Home = () => {
               <img src={partnerTwo} alt="partners" />
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="social-ctn">
+        {/* <div className="social-ctn">
           <div className="social-list">
             <Link to="">
-              <i class="fab fa-facebook-f"></i>
+              <i className="fab fa-facebook-f"></i>
             </Link>
           </div>
           <div className="social-list">
             <Link to="">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </Link>
           </div>
           <div className="social-list">
             <Link to="">
               <i class="fab fa-linkedin-in"></i>
             </Link>
+            Name
           </div>
-        </div>
-        <div className="right-reserved">
+        </div> */}
+        {/* <div className="right-reserved">
           <p>
             © 2022 All Rights Reserved | Dave Gems Ltd <br />
             Gemstone Traders UK
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -4,9 +4,15 @@ body {
 }
 
 .logo {
-  max-width: 10rem;
+  max-width: 6rem;
 }
 
 .logo > a > img {
   width: 100%;
+}
+
+@media (min-width: 1050px) {
+  .logo {
+    max-width: 10rem;
+  }
 }
