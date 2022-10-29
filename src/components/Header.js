@@ -13,10 +13,30 @@ const Header = () => {
         </Link>
       </div>
       <div className="nav-ctn">
-        <Link to="/">Home</Link> |<Link to="about-us">About us</Link> |
-        <Link to="what-we-do">What we do</Link> |
-        <Link to="gemstones">Gemstones</Link> |
-        <Link to="jewelries">Jewellery</Link> |<Link to="contact">Contact</Link>
+        <div className="link">
+          <Link to="/">Home</Link>
+        </div>{" "}
+        |
+        <div className="link">
+          <Link to="about-us">About us</Link>
+        </div>
+        |{" "}
+        <div className="link">
+          <Link to="what-we-do">What we do</Link>
+        </div>
+        |{" "}
+        <div className="link">
+          <Link to="gemstones">Gemstones</Link>
+        </div>
+        |{" "}
+        <div className="link">
+          <Link to="jewelries">Jewellery</Link>
+        </div>{" "}
+        |
+        <div className="link">
+          <Link to="contact">Contact</Link>
+        </div>
+        |
       </div>
     </div>
   );

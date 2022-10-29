@@ -1,0 +1,142 @@
+.about-us-ctn {
+  max-width: 100%;
+  background-image: url(../assets/images/background2.avif);
+  background-position: 50% 3.87904px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  text-align: center !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  min-width: 0 !important;
+  margin-left: 0 !important;
+}
+
+.about-us {
+  background-color: rgba(255, 251, 251, 0.7);
+  background-attachment: scroll;
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+}
+
+.about-us-img-ctn {
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: calc(100% - 0px) !important;
+  position: relative !important;
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  max-width: 149px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-right: 0 !important;
+  min-width: 25px !important;
+  text-align: center !important;
+  height: auto !important;
+  background-attachment: scroll !important;
+}
+
+.about-us-img-ctn > img {
+  width: 100%;
+}
+
+.about-us-paragraph {
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: calc(100% - 82px) !important;
+  position: relative !important;
+  height: auto !important;
+  padding-top: 2px !important;
+  padding-left: 0 !important;
+  padding-bottom: 2px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  max-width: 676px !important;
+  margin-top: 42px !important;
+  margin-bottom: 0 !important;
+  padding-right: 0 !important;
+  min-width: 25px !important;
+  background-attachment: scroll !important;
+  text-align: left;
+  display: block;
+  transition: none;
+}
+
+.about-us-paragraph > p {
+  color: rgb(55, 57, 70);
+  font-weight: 300;
+  font-family: "Source Sans Pro";
+}
+
+.img-history-ctn {
+  background-color: rgba(239, 239, 239, 1) !important;
+  border-style: solid !important;
+  border-width: 0 !important;
+  border-color: rgba(188, 188, 188, 1) !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  padding-top: 40px !important;
+  padding-left: 20px !important;
+  padding-bottom: 0px !important;
+  max-width: 100% !important;
+  padding-right: 20px !important;
+  min-width: 0 !important;
+  text-align: start !important;
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+  background-attachment: scroll;
+}
+
+.img-history-wrapper {
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+  padding-right: 0px !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  position: relative !important;
+  height: auto !important;
+  max-width: 100% !important;
+  min-width: 25px !important;
+  text-align: start !important;
+  margin-left: 0px !important;
+  background-attachment: scroll !important;
+}
+
+@media (min-width: 1050px) {
+  .about-us-ctn {
+    padding-top: 50px !important;
+    padding-left: 40px !important;
+    padding-bottom: 99.5px !important;
+    padding-right: 40px !important;
+    margin-top: 10px !important;
+  }
+}
