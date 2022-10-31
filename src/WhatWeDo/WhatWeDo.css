@@ -1,0 +1,364 @@
+.what-we-can-ctn {
+  max-width: 100%;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/IMG_9730_gray_b-2880w.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  text-align: center !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  min-width: 0 !important;
+  margin-left: 0 !important;
+}
+
+.what-we-can {
+  background-color: rgba(255, 251, 251, 0.9);
+  background-attachment: scroll;
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+}
+
+.what-we-can-paragraph {
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  position: relative !important;
+  height: auto !important;
+  padding: 100px 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  max-width: 676px !important;
+  margin-top: 42px !important;
+  margin-bottom: 0 !important;
+  min-width: 25px !important;
+  background-attachment: scroll !important;
+  text-align: left;
+  display: block;
+  transition: none;
+}
+
+.blue-gem-img-ctn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.blue-gem-img-one {
+  width: 100%;
+  height: 10rem;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/blue_sapphire_old_mine-0246c8f3-2880w.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blue-gem-img-two {
+  width: 100%;
+  height: 10rem;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/IMG_1102-102e7d43-0178d389-2880w.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-service-ctn {
+  background-color: rgba(245, 241, 241, 0.8) !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  padding-top: 56px !important;
+  padding-left: 20px !important;
+  padding-bottom: 54px !important;
+  max-width: 100% !important;
+  padding-right: 20px !important;
+  min-width: 0 !important;
+  text-align: center !important;
+  margin: 0;
+  box-shadow: 4px 4px 8px rgba(101, 99, 99, 0.3);
+}
+
+.our-service-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.our-service-ctn-one {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  margin-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  box-sizing: border-box;
+}
+.our-service-ctn-two {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  margin-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  box-sizing: border-box;
+}
+
+.our-service-one {
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: calc(100% - 0px) !important;
+  position: relative !important;
+  height: auto !important;
+  padding-top: 10px !important;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+  margin-right: 0.171875px !important;
+  margin-left: 0 !important;
+  margin-top: -2px !important;
+  margin-bottom: 0 !important;
+  padding-right: 0 !important;
+  min-width: 25px !important;
+  display: block !important;
+  text-align: center;
+  opacity: 1;
+  transform: translate3d(0%, 0%, 0px);
+  visibility: visible !important;
+  transition-delay: unset !important;
+  transition-duration: unset !important;
+  animation-delay: unset !important;
+  animation-duration: unset !important;
+  transition-property: none !important;
+}
+
+.our-service-heading {
+  color: #373946;
+  direction: ltr;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.our-service-paragraph {
+  color: #373946;
+  direction: ltr;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
+hr {
+  width: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+.ica-ctn {
+  background-color: rgba(239, 239, 239, 1);
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  padding-top: 57px !important;
+  padding-left: 40px !important;
+  padding-bottom: 20px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  max-width: 100% !important;
+  margin-top: 15px !important;
+  margin-bottom: 0 !important;
+  padding-right: 50px !important;
+  min-width: 0 !important;
+  text-align: center !important;
+}
+
+.ica-wrapper {
+  display: flex;
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+}
+
+.ica-paragraph-ctn {
+  display: block;
+  transition: none;
+  text-align: left;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: calc(100% - 0px) !important;
+  position: relative !important;
+  height: auto !important;
+  padding-top: 20px !important;
+  padding-left: 0 !important;
+  padding-bottom: 2px !important;
+  max-width: 100% !important;
+  padding-right: 0 !important;
+  min-width: 25px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+}
+
+.ica-paragraph-ctn > p {
+  color: #373946;
+  direction: ltr;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.one-kind-ctn {
+  max-width: 100%;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/IMG_2643%2B8-2880w.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  text-align: center !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  min-width: 0 !important;
+  margin-left: 0 !important;
+}
+
+.one-kind {
+  background-color: rgba(255, 251, 251, 0.9);
+  background-attachment: scroll;
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  border: none;
+}
+.one-kind-paragraph {
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  position: relative !important;
+  height: auto !important;
+  padding: 100px 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  max-width: 676px !important;
+  margin-top: 42px !important;
+  margin-bottom: 0 !important;
+  min-width: 25px !important;
+  background-attachment: scroll !important;
+  text-align: left;
+  display: block;
+  transition: none;
+}
+
+@media (min-width: 1050px) {
+  .what-we-can-ctn {
+    padding-top: 50px !important;
+    padding-left: 40px !important;
+    padding-bottom: 99.5px !important;
+    padding-right: 40px !important;
+    margin-top: 10px !important;
+  }
+  .blue-gem-img-ctn {
+    flex-direction: row;
+    width: 100%;
+    margin: 3rem 0;
+  }
+
+  .blue-gem-img-one {
+    width: 50%;
+    height: 30rem;
+  }
+  .blue-gem-img-two {
+    width: 50%;
+    height: auto;
+  }
+
+  .our-service-ctn {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .our-service-wrapper {
+    flex-direction: row;
+  }
+  .our-service-ctn-two {
+    width: 50%;
+    padding-right: 20px !important;
+    padding-left: 40px !important;
+  }
+
+  .our-service-ctn-one {
+    width: 50%;
+    padding-right: 40px !important;
+    padding-left: 20px !important;
+  }
+
+  .our-service-one {
+    text-align: left;
+  }
+
+  .our-service-heading {
+    font-size: 24px;
+  }
+
+  .our-service-paragraph {
+    font-size: 18px;
+  }
+  .ica-paragraph-ctn > p {
+    font-size: 24px;
+  }
+
+  .one-kind-ctn {
+    padding-top: 50px !important;
+    padding-left: 40px !important;
+    padding-bottom: 99.5px !important;
+    padding-right: 40px !important;
+    margin-top: 10px !important;
+  }
+}

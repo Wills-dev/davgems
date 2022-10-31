@@ -1,10 +1,10 @@
 .about-us-ctn {
   max-width: 100%;
   background-image: url(../assets/images/background2.avif);
-  background-position: 50% 3.87904px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll !important;
+  background-attachment: fixed !important;
   float: none !important;
   top: 0 !important;
   left: 0 !important;
@@ -57,18 +57,15 @@
   float: none !important;
   top: 0 !important;
   left: 0 !important;
-  width: calc(100% - 82px) !important;
+  width: 100% !important;
   position: relative !important;
   height: auto !important;
-  padding-top: 2px !important;
-  padding-left: 0 !important;
-  padding-bottom: 2px !important;
+  padding: 2px 0 !important;
   margin-right: auto !important;
   margin-left: auto !important;
   max-width: 676px !important;
   margin-top: 42px !important;
   margin-bottom: 0 !important;
-  padding-right: 0 !important;
   min-width: 25px !important;
   background-attachment: scroll !important;
   text-align: left;
@@ -84,9 +81,6 @@
 
 .img-history-ctn {
   background-color: rgba(239, 239, 239, 1) !important;
-  border-style: solid !important;
-  border-width: 0 !important;
-  border-color: rgba(188, 188, 188, 1) !important;
   box-shadow: none !important;
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
@@ -96,28 +90,16 @@
   width: auto !important;
   position: relative !important;
   height: auto !important;
-  padding-top: 40px !important;
-  padding-left: 20px !important;
-  padding-bottom: 0px !important;
+  padding: 40px 20px 0 20px;
   max-width: 100% !important;
-  padding-right: 20px !important;
   min-width: 0 !important;
-  text-align: start !important;
-  margin-left: 0px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  margin-right: 0px !important;
+  margin: 0;
   background-attachment: scroll;
 }
 
 .img-history-wrapper {
-  padding-top: 0px !important;
-  padding-left: 0px !important;
-  padding-bottom: 0px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  margin-right: 0px !important;
-  padding-right: 0px !important;
+  padding: 0;
+  margin: 0;
   float: none !important;
   top: 0 !important;
   left: 0 !important;
@@ -127,8 +109,273 @@
   max-width: 100% !important;
   min-width: 25px !important;
   text-align: start !important;
-  margin-left: 0px !important;
   background-attachment: scroll !important;
+}
+
+.history-img-ctn {
+  background-attachment: scroll !important;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height: 15rem;
+}
+
+.history-img {
+  width: 50%;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  background: 0;
+  filter: grayscale(100%);
+  filter: gray;
+  transition: 0.2s ease-in-out;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: 0;
+  vertical-align: inherit;
+  background-size: cover;
+  background-attachment: scroll !important;
+}
+
+.history-img > p {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(239, 239, 239, 1);
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+.history-img > p:hover {
+  opacity: 1;
+}
+
+.history-img-one-one {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/Lightning_ridge-640w.jpg);
+}
+.history-img-one-two {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/blower_ridge-640w.jpg);
+}
+
+.history-img-one-three {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/Drill_2-640w.jpg);
+}
+
+.history-img-one-four {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/drill_lightning_ridge-640w.jpg);
+}
+
+.history-img-two-one {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/Drill_3-640w.jpg);
+}
+
+.history-img-two-two {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/Duncan_mining-640w.jpg);
+}
+
+.history-img-two-three {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/underground_mining_opal-640w.jpg);
+}
+
+.history-img-two-four {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/Underground_mining-640w.jpg);
+}
+
+.history-img-three-one {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/mining_lighting_ridge-640w.jpg);
+}
+
+.history-img-three-two {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/opal_face-28361285-640w.jpg);
+}
+
+.history-img-three-three {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/duncan_cutting_opal-640w.jpg);
+}
+
+.history-img-three-four {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/IMG_0714-ad6766ce-640w.JPG);
+}
+
+.about-precious-gem-ctn {
+  background-color: rgba(239, 239, 239, 1) !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  padding: 10px;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0;
+  background-attachment: scroll;
+}
+.about-precious-gem-wrapper {
+  width: 100%;
+}
+.precious-gem-wrapper {
+  padding: 0;
+  margin: 0;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  position: relative !important;
+  height: auto !important;
+  max-width: 100% !important;
+  min-width: 25px !important;
+  text-align: start !important;
+  background-attachment: scroll !important;
+}
+.precious-gem-wrapper-one {
+  background-attachment: scroll !important;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height: 15rem;
+}
+
+.precious-gem {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 50%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gallery-one {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/crystal_opal_6804-62b8fc71-1920w-640w.jpg);
+}
+
+.gallery-two {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/crystal_opal_6805-23c68b85-640w.jpg);
+}
+
+.gallery-three {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/blue_green_opal_8951-1920w-640w.jpg);
+}
+
+.gallery-four {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/black_opal_4703-640w.jpg);
+}
+
+.gallery-five {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/Black_opal_oval-e119f3be-640w.jpg);
+}
+
+.gallery-six {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/opalised_shell_b-bcdbd338-b7d19825-640w.jpg);
+}
+
+.gallery-seven {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/black_opal_freeform-ea63a7b9-640w.jpg);
+}
+
+.gallery-eight {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/crystal_opal_belemnite_4499-640w.jpg);
+}
+
+.coloured-gem-ctn {
+  background-color: rgba(239, 239, 239, 1) !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  height: auto !important;
+  padding: 20px 0px;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin: 0;
+  background-attachment: scroll;
+}
+
+.coloured-gem-wrapper {
+  padding: 0;
+  margin: 0;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  position: relative !important;
+  height: auto !important;
+  max-width: 100% !important;
+  min-width: 25px !important;
+  text-align: start !important;
+  background-attachment: scroll !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.coloured-gem {
+  background-attachment: scroll !important;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height: 15rem;
+  padding: 10px 10px;
+}
+
+.gem-color {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.coloured-one {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/blue_sapphires-fd34a3da-640w.jpg);
+}
+
+.coloured-two {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/pink_sapphires-48648c5b-640w.jpg);
+}
+
+@media (min-width: 550px) {
+  .coloured-gem-wrapper {
+    flex-direction: row;
+  }
+  .coloured-gem {
+    width: 50%;
+  }
+
+  .history-img {
+    width: 25%;
+  }
+  .precious-gem {
+    width: 25%;
+  }
+  .about-us-paragraph {
+    width: calc(100% - 82px) !important;
+  }
 }
 
 @media (min-width: 1050px) {

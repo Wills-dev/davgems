@@ -7,6 +7,7 @@
   position: fixed;
   background-color: #ffffff;
   z-index: 2;
+  margin-top: 0;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   color: #7c7b7b;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .nav-ctn a {
