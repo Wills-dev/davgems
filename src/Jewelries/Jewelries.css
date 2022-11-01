@@ -1,0 +1,55 @@
+.jewellery-img-ctn {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.jewellery-img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.jewellery-img {
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jewellery-img > img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.jewellery-img:hover > img {
+  transform: scale(1.05);
+  filter: grayscale(60%);
+}
+
+/* .jewellery-one {
+  background-image: url();
+} */
+
+/* .jewellery-two {
+  background-image: url();
+} */
+
+/* .jewellery-three {
+  background-image: url(../assets/images/istockphoto-13.jpg);
+} */
+
+@media (min-width: 1050px) {
+  .jewellery-img {
+    width: 50%;
+  }
+}

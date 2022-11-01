@@ -4,7 +4,7 @@ import "./ContactCom.css";
 
 import partnerOne from "../assets/images/international.webp";
 import partnerTwo from "../assets/images/accredited.webp";
-import logo from "../assets/images/wills (1).png";
+import logo from "../assets/images/wills (3).png";
 
 const ContactCom = () => {
   return (
@@ -55,11 +55,9 @@ const ContactCom = () => {
             </Link>
           </div>
           <p className="main-address">
-            Dave Gems Ltd
-            <br /> 5th floor Premier House <br />
-            12-13 Hatton Garden <br />
-            London <br />
-            EC1N 8AN <br />
+            Webb's Gems Ltd
+            <br /> 501 Winscott Rd, <br />
+            Benbrook Tx 76126 <br />
             Tel +44 2078314449
           </p>
         </div>
@@ -95,8 +93,8 @@ const ContactCom = () => {
       </div>
       <div className="right-reserved">
         <p>
-          © 2022 All Rights Reserved | Dave Gems Ltd <br />
-          Gemstone Traders UK
+          © 2022 All Rights Reserved | Webb's Gems Ltd <br />
+          Gemstone Traders US
         </p>
       </div>
     </div>

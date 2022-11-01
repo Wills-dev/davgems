@@ -77,7 +77,7 @@ const AboutUs = () => {
                 treasurer of the ICA in 2018.
               </p>
               <p className="ceo-name">
-                Duncan McLauchlan <br /> Owner and CEO Dave Gems Ltd
+                Martin Webb <br /> Owner and CEO Webb's Gem Ltd
               </p>
             </div>
           </div>

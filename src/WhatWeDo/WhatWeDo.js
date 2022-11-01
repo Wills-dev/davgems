@@ -131,7 +131,7 @@ const WhatWeDo = () => {
                 <h3 className="our-service-heading">Antique jewellery</h3>
                 <p className="our-service-paragraph">
                   We buy and sell antique jewellery because we love the charm,
-                  character and history that these pieces of jewellery have. .
+                  character and history that these pieces of jewellery have.
                 </p>
                 <hr />
                 <hr />
