@@ -2,12 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ContactCom from "../components/ContactCom";
 import Header from "../components/Header";
+import NavBar from "../components/NavBar";
 import "./WhatWeDo.css";
 
 const WhatWeDo = () => {
   return (
     <div className="main">
       <Header />
+      <NavBar />
       <div className="main-body">
         <div className="title-ctn">
           <h2 className="first-title">FINE AND RARE GEMSTONES</h2>
@@ -106,7 +108,7 @@ const WhatWeDo = () => {
                 </h3>
                 <p className="our-service-paragraph">
                   We are considered one of the main opal experts and cutters in
-                  the UK. We hold in our stock a wide selection of beautiful
+                  the USA. We hold in our stock a wide selection of beautiful
                   black, crystal and boulder opal.
                 </p>
                 <hr />
@@ -193,9 +195,12 @@ const WhatWeDo = () => {
                 our friends that have wished to manufacture bespoke jewellery.
               </p>
               <p>
-                Our many years of expertise in the jewellery industry enabled us
-                to develop our very own private clients many of which are now
-                our friends that have wished to manufacture bespoke jewellery.
+                Our approach to designing jewellery is to firstly identify and
+                listen carefully to the client’s requirements and what they are
+                aiming to achieve. We will provide them with options that suit
+                their budget and taste, design and manufacture their chosen
+                piece by using some of the best jewellery manufacturers in the
+                USA.
               </p>
               <p>
                 Designing a bespoke piece of jewellery, whether it is an

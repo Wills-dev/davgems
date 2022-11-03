@@ -12,6 +12,7 @@ import JewelSix from "../assets/images/photo-10.avif";
 import JewelSeven from "../assets/images/photo-14.avif";
 import JewelEight from "../assets/images/istockphoto-15.jpg";
 import JewelNine from "../assets/images/istockphoto-16.jpg";
+import NavBar from "../components/NavBar";
 
 const Jewelries = () => {
   const jewel = [
@@ -54,6 +55,7 @@ const Jewelries = () => {
   return (
     <div className="main">
       <Header />
+      <NavBar />
       <div className="main-body">
         <div className="title-ctn">
           <h2 className="first-title">EXCEPTIONAL BESPOKE JEWELLERY</h2>
@@ -81,7 +83,7 @@ const Jewelries = () => {
           <h1 className="second-title">
             These 'one of a kind' ﻿ pieces of jewellery incorporate fine
             gemstones known for their uniqueness and rareness combined with
-            unique bespoke design and excellent British manufacturing.
+            unique bespoke design and excellent US manufacturing.
           </h1>
         </div>
         <div className="about-uss-ctn">
@@ -230,7 +232,7 @@ const Jewelries = () => {
           <h1 className="second-title">
             We have passion for great design and attention to detail. For this
             reason we use fine quality gemstones and work with some of the best
-            craftsmen in the UK to manufacture fine quality unique pieces of
+            craftsmen in the USA to manufacture fine quality unique pieces of
             jewellery.
           </h1>
         </div>

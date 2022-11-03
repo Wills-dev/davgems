@@ -38,23 +38,22 @@
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.2em;
-  margin: 0;
+  margin: 0 4px;
   padding: 0;
 }
 
 .second-title {
-  font-size: 14px;
-  color: #373946;
+  font-size: 18px;
+  color: #88898d;
   direction: ltr;
-  font-family: "Source Sans Pro";
-  font-weight: 300;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 100;
   font-style: normal;
   margin: 0;
   padding: 0;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   line-height: initial;
-  opacity: 0.5;
   max-width: 60%;
   display: flex;
   align-items: center;
@@ -65,7 +64,7 @@
   font-size: 14px;
   color: #373946;
   direction: ltr;
-  font-family: "Source Sans Pro";
+  font-family: "Alegreya Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
   margin-block-start: 0.83em;
@@ -80,7 +79,7 @@
   font-size: 16px;
   color: #282828;
   direction: ltr;
-  font-family: "Source Sans Pro";
+  font-family: "Alegreya Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
   margin-block-start: 0.83em;
@@ -119,6 +118,7 @@
   padding: 6px 20px;
   color: #282828;
   font-size: 12px;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 .about-us-ctn {
@@ -147,39 +147,66 @@
 .journey {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
 .journey-ima-ctn {
-  width: 80%;
+  width: 50%;
   height: 10rem;
 }
 
 .image-one {
-  background-image: url(../assets/images/istockphoto-3.jpg) !important;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/cutting_black_opal_2939-1920w-1920w.jpg) !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .image-two {
-  background-image: url(../assets/images/istockphoto-3.jpg) !important;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/black_opal_4703-1920w.jpg) !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .image-three {
-  background-image: url(../assets/images/istockphoto-3.jpg) !important;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/blue_sapphire_cushion-ec459356-1920w.jpg) !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .image-four {
-  background-image: url(../assets/images/istockphoto-5.jpg) !important;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/blue_sapphires_2772-04a2d756-1920w.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-five {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/IMG_9730_gray_b-6f01a5b3-1920w.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-six {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/aquamarine_6148-bad8c3db-cfabfabf-1920w.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-seven {
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/sapphire_ring-07166c11-1920w.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-eight {
+  background-image: url(../assets/images/background2.avif) !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,7 +220,7 @@
 
 .journey-paragraph-ctn {
   width: 100%;
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 1rem 0rem 1rem 0rem;
 }
 
 .journey-country {
@@ -206,13 +233,13 @@
 }
 
 .journey-paragraph {
-  color: #373946;
+  color: #95969d;
   direction: ltr;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
-  opacity: 0.5;
+  margin: 0 2rem;
 }
 
 .certification {
@@ -258,7 +285,7 @@
 .quote-img-one {
   width: 100%;
   height: 10rem;
-  background-image: url(../assets/images/istockphoto-5.jpg) !important;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/amethyst-349b4aa0-1920w.jpg) !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -266,7 +293,7 @@
 .quote-img-two {
   width: 100%;
   height: 10rem;
-  background-image: url(../assets/images/istockphoto-6.jpg) !important;
+  background-image: url(https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/ruby_oval-1920w.jpg) !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -359,6 +386,10 @@
 }
 .address {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .main-address {
@@ -417,6 +448,73 @@
   color: #282828;
 }
 
+@media (min-width: 350px) {
+  .quote-img-ctn {
+    flex-direction: row;
+    width: 100%;
+    margin: 3rem 0;
+  }
+
+  .quote-img-one {
+    width: 50%;
+    height: 20rem;
+  }
+  .quote-img-two {
+    width: 50%;
+    height: auto;
+  }
+  .first-title {
+    font-size: 16px;
+  }
+
+  .second-title {
+    font-size: 24px;
+  }
+
+  .third-title {
+    font-size: 18px;
+  }
+
+  .fourth-title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 700px) {
+  .journey-ctn {
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .journey {
+    flex-direction: row;
+    width: 100%;
+    text-align: start;
+    align-items: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .journey-ima-ctn {
+    width: 50%;
+    height: auto;
+  }
+
+  .journey-wrapper {
+    width: 50%;
+  }
+
+  .journey-country {
+    font-size: 24px;
+    padding: 0 2rem;
+  }
+
+  .journey-paragraph {
+    font-size: 18px;
+    padding: 0 2rem;
+    margin: 0;
+  }
+}
+
 @media (min-width: 1050px) {
   .main-body {
     max-width: 960px;
@@ -460,34 +558,12 @@
     font-size: 16px;
   }
 
-  .journey-ctn {
-    width: 100%;
-    margin-top: 4rem;
-  }
-  .journey {
-    flex-direction: row;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .journey-ima-ctn {
-    width: 50%;
-    height: auto;
-  }
-
-  .journey-wrapper {
-    width: 50%;
-  }
-
   .journey-country {
     font-size: 24px;
-    padding: 0 2rem;
   }
 
   .journey-paragraph {
     font-size: 18px;
-    padding: 0 2rem;
   }
 
   .certification {
@@ -501,26 +577,16 @@
     font-size: 24px;
   }
 
+  .quote-img-one {
+    width: 50%;
+    height: 30rem;
+  }
+
   .quote > p {
     margin: 3rem 0 0 0;
     max-width: 514px;
     width: calc(100% - 178px);
     font-size: 30px;
-  }
-
-  .quote-img-ctn {
-    flex-direction: row;
-    width: 100%;
-    margin: 3rem 0;
-  }
-
-  .quote-img-one {
-    width: 50%;
-    height: 30rem;
-  }
-  .quote-img-two {
-    width: 50%;
-    height: auto;
   }
 
   .form-ctn {

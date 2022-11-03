@@ -22,7 +22,7 @@ a {
 }
 
 .nav-ctn {
-  display: flex;
+  display: none;
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
@@ -40,6 +40,12 @@ a {
 .nav-ctn a:hover {
   color: #282828;
   border-bottom: 1px solid #282828;
+}
+
+@media (min-width: 700px) {
+  .nav-ctn {
+    display: flex;
+  }
 }
 
 @media (min-width: 1050px) {

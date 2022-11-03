@@ -1,12 +1,14 @@
 import React from "react";
 import ContactCom from "../components/ContactCom";
 import Header from "../components/Header";
+import NavBar from "../components/NavBar";
 import "./GemStones.css";
 
 const GemStones = () => {
   return (
     <div className="main">
       <Header />
+      <NavBar />
       <div className="main-body">
         <div className="title-ctn">
           <h2 className="first-title">COLOURED GEMSTONES</h2>

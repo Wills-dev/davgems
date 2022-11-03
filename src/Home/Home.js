@@ -1,19 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import "react-slideshow-image/dist/styles.css";
 import { Fade } from "react-slideshow-image";
-import banner from "../assets/images/istockphoto-3.jpg";
-import banner1 from "../assets/images/istockphoto-5.jpg";
-import banner2 from "../assets/images/istockphoto-9.jpg";
-import banner3 from "../assets/images/istockphoto-21.jpg";
+import banner from "../assets/images/black_opal.webp";
+import banner1 from "../assets/images/black_opals.webp";
+import banner4 from "../assets/images/ruby.webp";
+import banner5 from "../assets/images/IMG.webp";
 import ContactCom from "../components/ContactCom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import NavBar from "../components/NavBar";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="main">
       <Header />
+      <NavBar />
       <div className="main-body">
         <div className="title-ctn">
           <h2 className="first-title">FINE QUALITY GEMSTONE TRADERS</h2>
@@ -32,10 +40,10 @@ const Home = () => {
                 <img src={banner1} alt="banner" />
               </div>
               <div className="each-slide">
-                <img src={banner2} alt="banner" />
+                <img src={banner4} alt="banner" />
               </div>
               <div className="each-slide">
-                <img src={banner3} alt="banner" />
+                <img src={banner5} alt="banner" />
               </div>
             </Fade>
           </div>
@@ -67,10 +75,10 @@ const Home = () => {
                   fascinating world of coloured gemstones.
                 </p>
                 <p className="journey-paragraph">
-                  Today we have established ourselves in Hatton Garden the heart
-                  of the jewellery district in London, where we source and
-                  supply fine coloured gemstones to some of the world's most
-                  famous jewellery designers and jewellery houses.
+                  Today we have established ourselves in Benbrook the heart of
+                  the jewellery district in Texas, where we source and supply
+                  fine coloured gemstones to some of the world's most famous
+                  jewellery designers and jewellery houses.
                 </p>
               </div>
             </div>
@@ -78,7 +86,7 @@ const Home = () => {
           <div className="journey ">
             <div className="journey-wrapper">
               <div className="journey-paragraph-ctn">
-                <h4 className="journey-country">Gemstone Traders - London</h4>
+                <h4 className="journey-country">Gemstone Traders - US</h4>
                 <p className="journey-paragraph">
                   We are involved in all aspects of the process of jewellery
                   making.
@@ -106,9 +114,9 @@ const Home = () => {
           </Link>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">MCLAUCHLAN GEMSTONE TRADERS</h2>
+          <h2 className="first-title">WEBBS GEMSTONE TRADERS</h2>
           <h1 className="second-title">
-            Based in Hatton Garden the heart of London's Jewellery district
+            Based in Benbrook the heart of Texas' Jewellery district
           </h1>
         </div>
 
@@ -121,9 +129,9 @@ const Home = () => {
                   Gemstone Dealers and Experts
                 </h4>
                 <p className="journey-paragraph">
-                  Based in Hatton Garden the heart of London's Jewellery
-                  district, McLauchlan Gems Ltd specialises and deals in fine
-                  quality coloured gemstones.
+                  Based in Benbrook the heart of Texas' Jewellery district,
+                  Webb's Gems Ltd specialises and deals in fine quality coloured
+                  gemstones.
                 </p>
                 <p className="journey-paragraph">
                   A personal passion and life long interest for sourcing and
@@ -211,7 +219,7 @@ const Home = () => {
         </div>
         <div className="journey-ctn">
           <div className="journey">
-            <div className="journey-ima-ctn image-one"></div>
+            <div className="journey-ima-ctn image-five"></div>
             <div className="journey-wrapper">
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Our Expertise</h4>
@@ -257,7 +265,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="journey-ima-ctn image-two"></div>
+            <div className="journey-ima-ctn image-six"></div>
           </div>
         </div>
         <div className="about-uss-ctn">
@@ -273,7 +281,7 @@ const Home = () => {
         </div>
         <div className="journey-ctn">
           <div className="journey">
-            <div className="journey-ima-ctn image-one"></div>
+            <div className="journey-ima-ctn image-seven"></div>
             <div className="journey-wrapper">
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Unique Bespoke Jewellery</h4>
@@ -309,7 +317,7 @@ const Home = () => {
                 <p className="journey-paragraph">
                   Once designs have been approved, we manufacture their chosen
                   piece using some of the best jewellery manufacturers in the
-                  UK. We are really passionate about high quality manufacturing
+                  US. We are really passionate about high quality manufacturing
                   with attention to detail and our clients value our expert
                   advice and skills allowing them to feel confident about the
                   whole process.
@@ -333,7 +341,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="journey-ima-ctn image-two"></div>
+            <div className="journey-ima-ctn image-eight"></div>
           </div>
         </div>
         <div className="about-uss-ctn">

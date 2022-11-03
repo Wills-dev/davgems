@@ -20,16 +20,17 @@ body {
 
 .main-body {
   width: 100%;
-  padding: 10rem 0 0 0;
+  padding: 4rem 0 0 0 !important;
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 700px) {
   .logo {
     max-width: 10rem;
   }
+
   .main-body {
     max-width: 960px;
     margin: 0 auto;
-    padding-top: 13rem;
+    padding-top: 10rem !important;
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./AboutUs/AboutUs";
 import Contact from "./Contact/Contact";
 import GemStones from "./GemStones/GemStones";
@@ -9,16 +9,16 @@ import WhatWeDo from "./WhatWeDo/WhatWeDo";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/what-we-do" element={<WhatWeDo />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/gemstones" element={<GemStones />} />
-        <Route exact path="/about-us" element={<AboutUs />} />
-        <Route exact path="/jewelries" element={<Jewelries />} />
+        <Route path="/" element={<Home />} exact />
+        <Route path="/what-we-do" element={<WhatWeDo />} exact />
+        <Route path="/contact" element={<Contact />} exact />
+        <Route path="/gemstones" element={<GemStones />} exact />
+        <Route path="/about-us" element={<AboutUs />} exact />
+        <Route path="/jewelries" element={<Jewelries />} exact />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

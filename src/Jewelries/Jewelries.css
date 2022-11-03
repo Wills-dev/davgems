@@ -18,7 +18,7 @@
 
 .jewellery-img {
   width: 100%;
-  height: 30rem;
+  height: 25rem;
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,19 +36,7 @@
   filter: grayscale(60%);
 }
 
-/* .jewellery-one {
-  background-image: url();
-} */
-
-/* .jewellery-two {
-  background-image: url();
-} */
-
-/* .jewellery-three {
-  background-image: url(../assets/images/istockphoto-13.jpg);
-} */
-
-@media (min-width: 1050px) {
+@media (min-width: 550px) {
   .jewellery-img {
     width: 50%;
   }

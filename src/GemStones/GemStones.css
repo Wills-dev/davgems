@@ -138,6 +138,20 @@
   .explore-gem {
     width: 50%;
   }
+  .blue-pearl-img-ctn {
+    flex-direction: row;
+    width: 100%;
+    margin: 3rem 0;
+  }
+
+  .blue-pearl-img-one {
+    width: 50%;
+    height: 18rem;
+  }
+  .blue-pearl-img-two {
+    width: 50%;
+    height: auto;
+  }
 }
 
 @media (min-width: 620px) {
@@ -147,18 +161,7 @@
 }
 
 @media (min-width: 1050px) {
-  .blue-pearl-img-ctn {
-    flex-direction: row;
-    width: 100%;
-    margin: 3rem 0;
-  }
-
   .blue-pearl-img-one {
-    width: 50%;
     height: 30rem;
-  }
-  .blue-pearl-img-two {
-    width: 50%;
-    height: auto;
   }
 }

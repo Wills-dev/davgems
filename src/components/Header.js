@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/wills (3).png";
+import logo from "../assets/images/wills (1).png";
 
 import "./Header.css";
 
@@ -31,12 +31,11 @@ const Header = () => {
         |{" "}
         <div className="link">
           <Link to="/jewelries">Jewellery</Link>
-        </div>{" "}
+        </div>
         |
         <div className="link">
           <Link to="/contact">Contact</Link>
         </div>
-        |
       </div>
     </div>
   );

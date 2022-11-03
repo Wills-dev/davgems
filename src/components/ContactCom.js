@@ -54,12 +54,19 @@ const ContactCom = () => {
               <img src={logo} alt="logo" />
             </Link>
           </div>
-          <p className="main-address">
-            Webb's Gems Ltd
-            <br /> 501 Winscott Rd, <br />
-            Benbrook Tx 76126 <br />
-            Tel +44 2078314449
-          </p>
+          <div className="main-address">
+            <p> Webb's Gems Ltd</p>
+            <p>
+              <span style={{ fontWeight: "bold" }}> Head Office:</span> 501
+              Winscott Rd, Benbrook Tx 76126.{" "}
+            </p>
+            <p>
+              <span style={{ fontWeight: "bold" }}> Branch Offices: </span>231 W
+              Baltimore St, Jackson, TN 38301.{" "}
+            </p>
+            <p>266 Stebbings Ct, Bradley, IL 60915</p>
+            <p>Tel +1 (817) 546-0043</p>
+          </div>
         </div>
         <div className="main-partners">
           <div className="main-partners-one">

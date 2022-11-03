@@ -12,10 +12,7 @@
   position: relative !important;
   height: auto !important;
   text-align: center !important;
-  margin-bottom: 0 !important;
-  margin-right: 0 !important;
-  min-width: 0 !important;
-  margin-left: 0 !important;
+  margin: 0;
 }
 
 .what-we-can {
@@ -46,6 +43,12 @@
   text-align: left;
   display: block;
   transition: none;
+}
+
+.what-we-can-paragraph > p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 14px;
+  padding: 0 2rem;
 }
 
 .blue-gem-img-ctn {
@@ -174,7 +177,7 @@
 .our-service-paragraph {
   color: #373946;
   direction: ltr;
-  font-family: "Source Sans Pro";
+  font-family: "Alegreya Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -297,14 +300,13 @@ hr {
   transition: none;
 }
 
-@media (min-width: 1050px) {
-  .what-we-can-ctn {
-    padding-top: 50px !important;
-    padding-left: 40px !important;
-    padding-bottom: 99.5px !important;
-    padding-right: 40px !important;
-    margin-top: 10px !important;
-  }
+.one-kind-paragraph > p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 14px;
+  padding: 0 2rem;
+}
+
+@media (min-width: 400px) {
   .blue-gem-img-ctn {
     flex-direction: row;
     width: 100%;
@@ -313,16 +315,29 @@ hr {
 
   .blue-gem-img-one {
     width: 50%;
-    height: 30rem;
+    height: 18rem;
   }
   .blue-gem-img-two {
     width: 50%;
     height: auto;
   }
+}
 
-  .our-service-ctn {
+@media (min-width: 700px) {
+  .what-we-can-ctn {
+    padding-top: 50px !important;
     padding-left: 40px !important;
+    padding-bottom: 99.5px !important;
     padding-right: 40px !important;
+    margin-top: 10px !important;
+  }
+  .what-we-can-paragraph > p {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+
+  .blue-gem-img-one {
+    height: 30rem;
   }
   .our-service-wrapper {
     flex-direction: row;
@@ -342,6 +357,24 @@ hr {
   .our-service-one {
     text-align: left;
   }
+  .one-kind-ctn {
+    padding-top: 50px !important;
+    padding-left: 40px !important;
+    padding-bottom: 99.5px !important;
+    padding-right: 40px !important;
+    margin-top: 10px !important;
+  }
+  .one-kind-paragraph > p {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 1050px) {
+  .our-service-ctn {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
 
   .our-service-heading {
     font-size: 24px;
@@ -352,13 +385,5 @@ hr {
   }
   .ica-paragraph-ctn > p {
     font-size: 24px;
-  }
-
-  .one-kind-ctn {
-    padding-top: 50px !important;
-    padding-left: 40px !important;
-    padding-bottom: 99.5px !important;
-    padding-right: 40px !important;
-    margin-top: 10px !important;
   }
 }

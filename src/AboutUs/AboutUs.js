@@ -5,11 +5,13 @@ import { Link } from "react-router-dom";
 import "./AboutUs.css";
 import "../Home/Home.css";
 import background from "../assets/images/IMG_1536.jpg";
+import NavBar from "../components/NavBar";
 
 const AboutUs = () => {
   return (
     <div className="main">
       <Header />
+      <NavBar />
       <div className="main-body">
         <div className="title-ctn">
           <h2 className="first-title">GEMSTONE EXPERTS</h2>
