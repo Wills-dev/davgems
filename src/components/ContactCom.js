@@ -55,15 +55,9 @@ const ContactCom = () => {
             </Link>
           </div>
           <div className="main-address">
-            <p> Webb's Gems Ltd</p>
-            <p>
-              <span style={{ fontWeight: "bold" }}> Head Office:</span> 501
-              Winscott Rd, Benbrook Tx 76126.{" "}
-            </p>
-            <p>
-              <span style={{ fontWeight: "bold" }}> Branch Offices: </span>231 W
-              Baltimore St, Jackson, TN 38301.{" "}
-            </p>
+            <p> Pearl Asset Gems Ltd</p>
+            <p>501 Winscott Rd, Benbrook Tx 76126. </p>
+            <p>231 W Baltimore St, Jackson, TN 38301. </p>
             <p>266 Stebbings Ct, Bradley, IL 60915</p>
             <p>Tel +1 (817) 546-0043</p>
           </div>
@@ -100,7 +94,7 @@ const ContactCom = () => {
       </div>
       <div className="right-reserved">
         <p>
-          © 2022 All Rights Reserved | Webb's Gems Ltd <br />
+          © 2022 All Rights Reserved | Pearl Asset Gems Ltd <br />
           Gemstone Traders US
         </p>
       </div>

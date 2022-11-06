@@ -7,6 +7,7 @@ const NavBar = () => {
 
   const handleClick = (event) => {
     setIsActive((current) => !current);
+    console.log("isActive", isActive);
   };
   return (
     <div>
@@ -34,7 +35,7 @@ const NavBar = () => {
               GemStone
             </Link>
             <Link to="/jewelries" class="navigation-item">
-              Jewellery
+              Jewelry
             </Link>
             <Link to="/contact" class="navigation-item">
               Contact

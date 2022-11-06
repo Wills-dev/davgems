@@ -58,7 +58,7 @@ const Jewelries = () => {
       <NavBar />
       <div className="main-body">
         <div className="title-ctn">
-          <h2 className="first-title">EXCEPTIONAL BESPOKE JEWELLERY</h2>
+          <h2 className="first-title">EXCEPTIONAL BESPOKE JEWELRY</h2>
           <h1 className="second-title">
             Meticulously designed and manufactured for you
           </h1>
@@ -81,9 +81,9 @@ const Jewelries = () => {
         </div>
         <div className="title-ctn">
           <h1 className="second-title">
-            These 'one of a kind' ﻿ pieces of jewellery incorporate fine
-            gemstones known for their uniqueness and rareness combined with
-            unique bespoke design and excellent US manufacturing.
+            These 'one of a kind' ﻿ pieces of jewelry incorporate fine gemstones
+            known for their uniqueness and rareness combined with unique bespoke
+            design and excellent US manufacturing.
           </h1>
         </div>
         <div className="about-uss-ctn">
@@ -94,11 +94,11 @@ const Jewelries = () => {
         <div className="title-ctn">
           <h1 className="second-title">
             A unique experience of participating in the creation of a
-            personalised piece of jewellery
+            personalised piece of jewelry
           </h1>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">Bespoke jewellery</h2>
+          <h2 className="first-title">Bespoke jewelry</h2>
         </div>
         <div className="jewellery-img-ctn">
           <div className="jewellery-img-wrapper">
@@ -119,10 +119,10 @@ const Jewelries = () => {
           <h2 className="first-title">This is a fun process to go through!</h2>
           <h1 className="second-title">
             Participating in the unique experience of designing your own piece
-            of jewellery is extremely rewarding. Play with gemstones and ideas
-            and create beautiful, personalised more meaningful pieces of
-            jewellery to treasure for life. We truly enjoy guiding you through
-            the process, so please feel free to get in touch.
+            of jewelry is extremely rewarding. Play with gemstones and ideas and
+            create beautiful, personalised more meaningful pieces of jewelry to
+            treasure for life. We truly enjoy guiding you through the process,
+            so please feel free to get in touch.
           </h1>
         </div>
 
@@ -132,13 +132,13 @@ const Jewelries = () => {
           </Link>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">ANTIQUE JEWELLERY</h2>
+          <h2 className="first-title">ANTIQUE JEWELRY</h2>
           <h1 className="second-title">
-            We love the character and charm of antique jewellery
+            We love the character and charm of antique jewelry
           </h1>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">Antique and preowned jewellery</h2>
+          <h2 className="first-title">Antique and preowned jewelry</h2>
         </div>
         <div className="jewellery-img-ctn">
           <div className="jewellery-img-wrapper">
@@ -173,11 +173,11 @@ const Jewelries = () => {
           </Link>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">HANDMADE JEWELLERY</h2>
+          <h2 className="first-title">HANDMADE JEWELRY</h2>
           <h1 className="second-title">The perfect gift</h1>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">Our collection jewellery</h2>
+          <h2 className="first-title">Our collection jewelry</h2>
         </div>
         <div className="jewellery-img-ctn">
           <div className="jewellery-img-wrapper">
@@ -209,7 +209,7 @@ const Jewelries = () => {
         </div>
         <div className="title-ctn">
           <h2 className="first-title">
-            Being involved in the process ﻿of high quality jewellery making is a
+            Being involved in the process ﻿of high quality jewelry making is a
             unique experience
           </h2>
         </div>
@@ -233,7 +233,7 @@ const Jewelries = () => {
             We have passion for great design and attention to detail. For this
             reason we use fine quality gemstones and work with some of the best
             craftsmen in the USA to manufacture fine quality unique pieces of
-            jewellery.
+            jewelry.
           </h1>
         </div>
         <ContactCom />

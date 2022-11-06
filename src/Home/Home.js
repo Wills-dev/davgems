@@ -23,7 +23,12 @@ const Home = () => {
       <Header />
       <NavBar />
       <div className="main-body">
-        <div className="title-ctn">
+        <div
+          className="title-ctn"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        >
           <h2 className="first-title">FINE QUALITY GEMSTONE TRADERS</h2>
           <h1 className="second-title">
             Sharing our passion for fine and rare gemstones
@@ -53,7 +58,12 @@ const Home = () => {
             <div className="about-uss">About us...</div>
           </Link>
         </div>
-        <div className="title-ctn">
+        <div
+          className="title-ctn"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        >
           <h2 className="first-title">OUR JOURNEY IN THE WORLD OF GEMS</h2>
           <h1 className="second-title">
             Began in the opal mining fields three decades ago...
@@ -75,10 +85,10 @@ const Home = () => {
                   fascinating world of coloured gemstones.
                 </p>
                 <p className="journey-paragraph">
-                  Today we have established ourselves in Benbrook the heart of
-                  the jewellery district in Texas, where we source and supply
-                  fine coloured gemstones to some of the world's most famous
-                  jewellery designers and jewellery houses.
+                  Today, we have made a name for ourselves in America, the
+                  country where jewelry is styled most frequently. Here, we
+                  source and provide excellent colored gemstones to some of the
+                  most well-known jewelry firms and designers in the world.
                 </p>
               </div>
             </div>
@@ -88,12 +98,12 @@ const Home = () => {
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Gemstone Traders - US</h4>
                 <p className="journey-paragraph">
-                  We are involved in all aspects of the process of jewellery
+                  We are involved in all aspects of the process of jewelry
                   making.
                 </p>
                 <p className="journey-paragraph">
                   From sourcing rough gems, cutting and polishing them to
-                  designing bespoke one-of-a-kind pieces of jewellery for our
+                  designing bespoke one-of-a-kind pieces of jewelry for our
                   private clients.
                 </p>
                 <p className="journey-paragraph">
@@ -114,9 +124,9 @@ const Home = () => {
           </Link>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">WEBBS GEMSTONE TRADERS</h2>
+          <h2 className="first-title">PEARL ASSET GEMSTONE TRADERS</h2>
           <h1 className="second-title">
-            Based in Benbrook the heart of Texas' Jewellery district
+            Based in Benbrook the heart of Texas' Jewelry district
           </h1>
         </div>
 
@@ -129,9 +139,9 @@ const Home = () => {
                   Gemstone Dealers and Experts
                 </h4>
                 <p className="journey-paragraph">
-                  Based in Benbrook the heart of Texas' Jewellery district,
-                  Webb's Gems Ltd specialises and deals in fine quality coloured
-                  gemstones.
+                  United States is home to one of the world’s jewelry centers.
+                  Fine quality color gemstones are the focus and specialty of
+                  Pearl Asset Gems Ltd.
                 </p>
                 <p className="journey-paragraph">
                   A personal passion and life long interest for sourcing and
@@ -236,7 +246,7 @@ const Home = () => {
                 </p>
                 <p className="journey-paragraph">
                   We frequently offer our clients our expert advice on coloured
-                  gemstones discussing with their jewellery designers and
+                  gemstones discussing with their jewelry designers and
                   manufacturers the availability price and supply of their
                   chosen gemstone.
                 </p>
@@ -249,8 +259,8 @@ const Home = () => {
                 <h4 className="journey-country">Passion for Gemstones</h4>
                 <p className="journey-paragraph">
                   It's an exciting process and certainly very rewarding to see
-                  our gems being used by some of the best jewellery designers
-                  and jewellery houses in the world.
+                  our gems being used by some of the best jewelry designers and
+                  jewelry houses in the world.
                 </p>
                 <p className="journey-paragraph">
                   Ranging from ruby, sapphire, emerald, opal, aquamarine,
@@ -276,7 +286,7 @@ const Home = () => {
         <div className="title-ctn">
           <h2 className="first-title">FINE JEWELLERY</h2>
           <h1 className="second-title">
-            One-of-a-kind Bespoke jewellery Antique Jewellery
+            One-of-a-kind Bespoke jewelry Antique Jewellery
           </h1>
         </div>
         <div className="journey-ctn">
@@ -286,18 +296,18 @@ const Home = () => {
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Unique Bespoke Jewellery</h4>
                 <p className="journey-paragraph">
-                  Our many years of expertise in the jewellery industry has
+                  Our many years of expertise in the jewelry industry has
                   enabled us to develop and build trusted relationships with our
                   very own private clients, of whom many we are now fortunate
                   enough to call our friends and who frequently call and
                   commission us to manufacture for them and their families
-                  unique bespoke jewellery.
+                  unique bespoke jewelry.
                 </p>
                 <h4 className="journey-country">
                   The Jewellery Design Process
                 </h4>
                 <p className="journey-paragraph">
-                  Our approach to designing jewellery has always been to firstly
+                  Our approach to designing jewelry has always been to firstly
                   listen carefully to the client’s desires and requirements and
                   then guide them through the process providing them with
                   options that suit their budget, taste and choice of design.
@@ -316,17 +326,17 @@ const Home = () => {
                 </h4>
                 <p className="journey-paragraph">
                   Once designs have been approved, we manufacture their chosen
-                  piece using some of the best jewellery manufacturers in the
-                  US. We are really passionate about high quality manufacturing
-                  with attention to detail and our clients value our expert
-                  advice and skills allowing them to feel confident about the
-                  whole process.
+                  piece using some of the best jewelry manufacturers in the US.
+                  We are really passionate about high quality manufacturing with
+                  attention to detail and our clients value our expert advice
+                  and skills allowing them to feel confident about the whole
+                  process.
                 </p>
                 <h4 className="journey-country">
                   The Uniqueness of Personalised Design
                 </h4>
                 <p className="journey-paragraph">
-                  Designing a bespoke piece of jewellery, whether it is an
+                  Designing a bespoke piece of jewelry, whether it is an
                   engagement ring, an anniversary gift or any other occasion, is
                   a really unique and exciting process to go through, as it
                   allows clients to be involved in the process and gives them
@@ -334,8 +344,8 @@ const Home = () => {
                   personalisation.
                 </p>
                 <p className="journey-paragraph">
-                  We take great pride in our jewellery and the trust our clients
-                  place in us and believe that each piece of jewellery designed
+                  We take great pride in our jewelry and the trust our clients
+                  place in us and believe that each piece of jewelry designed
                   and manufactured should enhance the wearers’ experience and
                   satisfaction.
                 </p>

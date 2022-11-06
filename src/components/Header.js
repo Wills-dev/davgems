@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         |{" "}
         <div className="link">
-          <Link to="/jewelries">Jewellery</Link>
+          <Link to="/jewelries">Jewelry</Link>
         </div>
         |
         <div className="link">

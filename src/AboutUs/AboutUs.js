@@ -26,23 +26,23 @@ const AboutUs = () => {
             </div>
             <div className="about-us-paragraph">
               <p>
-                I have been involved in the Gemstone industry for thirty five
-                years. After spending ten years mining for opal in Lightning
-                Ridge Australia, I returned to the US in 1995, where I founded
-                my company in Winscott Rd, Benbrook where I continued working
-                with opal and precious gemstones, whilst maintaining close
-                working relationships and contact with my mining friends in
-                Australia and also Sri Lanka.
+                I have been involved in the Gemstones industry for thirty five
+                years. After spending ten years mining for opal in lightning
+                Ridge Australia, I returned to the US in 1995, where I started
+                my company and established myself as a private firm. I kept up
+                my work with opal and precious stones while staying in touch and
+                establishing good working contacts with my mining acquaintances
+                in Sri Lanka and Australia.
               </p>
               <p>
-                Since then, the Benbrook based company has become well
-                established and respected in the industry and specialises in
-                sourcing fine precious coloured gemstones and diamonds from
-                around the globe.{" "}
+                Since then, my company, which is based in the United States, has
+                grown to be well-known and respected in the sector and focuses
+                on locating fine, expensive colored gemstones and diamonds from
+                all over the word.
               </p>
               <p>
                 The company supplies and works closely with some of the world's
-                largest jewellery houses but over the years we have also been
+                largest jewelry houses but over the years we have also been
                 fortunate enough to develop many great working relationships and
                 friendships with smaller high street retailers and independent
                 designers primarily in Europe, Asia and USA where we strive to
@@ -79,7 +79,7 @@ const AboutUs = () => {
                 treasurer of the ICA in 2018.
               </p>
               <p className="ceo-name">
-                Martin Webb <br /> Owner and CEO Webb's Gem Ltd
+                Martin Webb <br /> Owner and CEO Pearl Asset Gem Ltd
               </p>
             </div>
           </div>

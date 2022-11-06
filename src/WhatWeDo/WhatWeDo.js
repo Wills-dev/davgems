@@ -62,7 +62,7 @@ const WhatWeDo = () => {
         <div className="title-ctn">
           <h2 className="first-title">GEM TRADERS AND EXPERTS</h2>
           <h1 className="second-title">
-            Offering our excellent services to the gem and jewellery industry
+            Offering our excellent services to the gem and jewelry industry
           </h1>
         </div>
         <div className="blue-gem-img-ctn">
@@ -117,23 +117,21 @@ const WhatWeDo = () => {
             </div>
             <div className="our-service-ctn-two">
               <div className="our-service-one">
-                <h3 className="our-service-heading">
-                  Bespoke jewellery design
-                </h3>
+                <h3 className="our-service-heading">Bespoke jewelry design</h3>
                 <p className="our-service-paragraph">
-                  We design and manufacture bespoke jewellery for our private
+                  We design and manufacture bespoke jewelry for our private
                   clients. From engagement rings to one-of-a-kind bespoke pieces
-                  of jewellery. We also remodel old pieces of jewellery for
-                  those customers who wish to alter, redesign or repair a piece.
+                  of jewelry. We also remodel old pieces of jewelry for those
+                  customers who wish to alter, redesign or repair a piece.
                 </p>
                 <hr />
                 <hr />
               </div>
               <div className="our-service-one">
-                <h3 className="our-service-heading">Antique jewellery</h3>
+                <h3 className="our-service-heading">Antique jewelry</h3>
                 <p className="our-service-paragraph">
-                  We buy and sell antique jewellery because we love the charm,
-                  character and history that these pieces of jewellery have.
+                  We buy and sell antique jewelry because we love the charm,
+                  character and history that these pieces of jewelry have.
                 </p>
                 <hr />
                 <hr />
@@ -142,8 +140,8 @@ const WhatWeDo = () => {
                 <h3 className="our-service-heading">Expert valuations</h3>
                 <p className="our-service-paragraph">
                   We offer independent expert valuations on gemstones and
-                  jewellery. All of the jewellery that we manufacture comes with
-                  a valuation.
+                  jewelry. All of the jewelry that we manufacture comes with a
+                  valuation.
                 </p>
                 <hr />
                 <hr />
@@ -181,36 +179,36 @@ const WhatWeDo = () => {
           </div>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">'ONE OF A KIND' JEWELLERY</h2>
+          <h2 className="first-title">'ONE OF A KIND' JEWELRY</h2>
           <h1 className="second-title">
-            Design your own unique piece of jewellery
+            Design your own unique piece of jewelry
           </h1>
         </div>
         <div className="one-kind-ctn">
           <div className="one-kind">
             <div className="one-kind-paragraph">
               <p>
-                Our many years of expertise in the jewellery industry enabled us
+                Our many years of expertise in the jewelry industry enabled us
                 to develop our very own private clients many of which are now
-                our friends that have wished to manufacture bespoke jewellery.
+                our friends that have wished to manufacture bespoke jewelry.
               </p>
               <p>
-                Our approach to designing jewellery is to firstly identify and
+                Our approach to designing jewelry is to firstly identify and
                 listen carefully to the client’s requirements and what they are
                 aiming to achieve. We will provide them with options that suit
                 their budget and taste, design and manufacture their chosen
-                piece by using some of the best jewellery manufacturers in the
+                piece by using some of the best jewelry manufacturers in the
                 USA.
               </p>
               <p>
-                Designing a bespoke piece of jewellery, whether it is an
+                Designing a bespoke piece of jewelry, whether it is an
                 engagement ring, an anniversary gift or any other occasion is a
                 really unique experience and process to go through, as it allows
                 clients to get involved and add a touch of personalisation.
               </p>
               <p>
                 We really care about the end client and we believe that the
-                piece of jewellery designed and manufactured should enhance the
+                piece of jewelry designed and manufactured should enhance the
                 wearers’ experience and satisfaction.
               </p>
               <p className="our-quote">

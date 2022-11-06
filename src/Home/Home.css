@@ -156,8 +156,8 @@
 }
 
 .journey-ima-ctn {
-  width: 50%;
-  height: 10rem;
+  width: 90%;
+  height: 15rem;
 }
 
 .image-one {
@@ -229,7 +229,7 @@
   font-family: "EB Garamond", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .journey-paragraph {
@@ -238,8 +238,8 @@
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 12px;
-  margin: 0 2rem;
+  font-size: 15px;
+  margin: 0 1rem;
 }
 
 .certification {
