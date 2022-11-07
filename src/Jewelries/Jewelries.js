@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import ContactCom from "../components/ContactCom";
 import Header from "../components/Header";
@@ -13,6 +13,9 @@ import JewelSeven from "../assets/images/photo-14.avif";
 import JewelEight from "../assets/images/istockphoto-15.jpg";
 import JewelNine from "../assets/images/istockphoto-16.jpg";
 import NavBar from "../components/NavBar";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Jewelries = () => {
   const jewel = [
@@ -52,6 +55,11 @@ const Jewelries = () => {
     "https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/IMG_6930-f1d74457-68490503-1920w-640w.JPG",
     "https://lirp.cdn-website.com/ef5e8968/dms3rep/multi/opt/IMG_6929-4119ca82-370c28bc-1920w-640w.JPG",
   ];
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="main">
       <Header />
@@ -80,12 +88,14 @@ const Jewelries = () => {
           </div>
         </div>
         <div className="title-ctn">
-          <h1 className="second-title">
-            These 'one of a kind' ﻿ pieces of jewelry incorporate fine gemstones
-            known for their uniqueness and rareness combined with unique bespoke
-            design and excellent US manufacturing.
-          </h1>
+          <p>
+            These <span>'one of a kind'</span> pieces of jewelry incorporate
+            fine gemstones known for their uniqueness and rareness combined with
+            unique bespoke design and excellent US manufacturing.
+          </p>
         </div>
+        {/* <p className="second-title"></p> */}
+
         <div className="about-uss-ctn">
           <Link to="/gemstones">
             <div className="about-uss">See More</div>
@@ -116,14 +126,17 @@ const Jewelries = () => {
           </div>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">This is a fun process to go through!</h2>
-          <h1 className="second-title">
+          <p>
+            This is a <span>fun process</span> to go through!{" "}
+          </p>
+          <p>
+            {" "}
             Participating in the unique experience of designing your own piece
             of jewelry is extremely rewarding. Play with gemstones and ideas and
             create beautiful, personalised more meaningful pieces of jewelry to
             treasure for life. We truly enjoy guiding you through the process,
             so please feel free to get in touch.
-          </h1>
+          </p>
         </div>
 
         <div className="about-uss-ctn">
@@ -160,10 +173,12 @@ const Jewelries = () => {
         </div>
         <div>
           <div className="title-ctn">
-            <h1 className="second-title">
-              Browse through some of the antique pieces and contact us if you
-              have a specific enquiry.
-            </h1>
+            <p>
+              Browse through some of the <span>antique</span>{" "}
+            </p>{" "}
+            <p>
+              <span>pieces</span> and contact us if you have a specific enquiry.
+            </p>
           </div>
           <p></p>
         </div>
@@ -176,8 +191,13 @@ const Jewelries = () => {
           <h2 className="first-title">HANDMADE JEWELRY</h2>
           <h1 className="second-title">The perfect gift</h1>
         </div>
-        <div className="title-ctn">
-          <h2 className="first-title">Our collection jewelry</h2>
+        <div
+          className="title-ctn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
+          <p>Our collection jewelry</p>
         </div>
         <div className="jewellery-img-ctn">
           <div className="jewellery-img-wrapper">
@@ -189,7 +209,10 @@ const Jewelries = () => {
           </div>
         </div>
         <div className="title-ctn">
-          <h2 className="first-title">'Helios'</h2>
+          <p>
+            {" "}
+            <span>'Helios'</span>
+          </p>
         </div>
 
         <div className="title-ctn">
@@ -229,12 +252,13 @@ const Jewelries = () => {
           </div>
         </div>
         <div className="title-ctn">
-          <h1 className="second-title">
-            We have passion for great design and attention to detail. For this
-            reason we use fine quality gemstones and work with some of the best
-            craftsmen in the USA to manufacture fine quality unique pieces of
-            jewelry.
-          </h1>
+          <p>
+            We have{" "}
+            <span>passion for great design and attention to detail.</span> For
+            this reason we use fine quality gemstones and work with some of the
+            best craftsmen in the USA to manufacture fine quality unique pieces
+            of jewelry.
+          </p>
         </div>
         <ContactCom />
       </div>

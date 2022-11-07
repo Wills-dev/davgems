@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import ContactCom from "../components/ContactCom";
 import Header from "../components/Header";
 import NavBar from "../components/NavBar";
 import "./WhatWeDo.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const WhatWeDo = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="main">
       <Header />
@@ -76,13 +82,27 @@ const WhatWeDo = () => {
           </h1>
         </div>
         <div className="title-ctnn">
-          <h2 className="fourth-title">- Our Services -</h2>
+          <h2
+            className="fourth-title"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="300"
+          >
+            - Our Services -
+          </h2>
         </div>
         <div className="our-service-ctn">
           <div className="our-service-wrapper">
             <div className="our-service-ctn-one">
               <div className="our-service-one">
-                <h3 className="our-service-heading">Fine Gemstones</h3>
+                <h3
+                  className="our-service-heading"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-offset="300"
+                >
+                  Fine Gemstones
+                </h3>
                 <p className="our-service-paragraph">
                   We specialise in a wide variety of fine coloured gemstones and
                   fancy coloured diamonds. ﻿Our gemstones have certificates from
@@ -93,7 +113,14 @@ const WhatWeDo = () => {
                 <hr />
               </div>
               <div className="our-service-one">
-                <h3 className="our-service-heading">Gemstone sourcing</h3>
+                <h3
+                  className="our-service-heading"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-offset="300"
+                >
+                  Gemstone sourcing
+                </h3>
                 <p className="our-service-paragraph">
                   Sourcing gemstones directly, according to our client’s
                   specifications, such as, colour, shape, quantity, and price
@@ -103,7 +130,12 @@ const WhatWeDo = () => {
                 <hr />
               </div>
               <div className="our-service-one">
-                <h3 className="our-service-heading">
+                <h3
+                  className="our-service-heading"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-offset="300"
+                >
                   Opal experts and cutters
                 </h3>
                 <p className="our-service-paragraph">
@@ -117,7 +149,14 @@ const WhatWeDo = () => {
             </div>
             <div className="our-service-ctn-two">
               <div className="our-service-one">
-                <h3 className="our-service-heading">Bespoke jewelry design</h3>
+                <h3
+                  className="our-service-heading"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-offset="300"
+                >
+                  Bespoke jewelry design
+                </h3>
                 <p className="our-service-paragraph">
                   We design and manufacture bespoke jewelry for our private
                   clients. From engagement rings to one-of-a-kind bespoke pieces
@@ -128,7 +167,14 @@ const WhatWeDo = () => {
                 <hr />
               </div>
               <div className="our-service-one">
-                <h3 className="our-service-heading">Antique jewelry</h3>
+                <h3
+                  className="our-service-heading"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-offset="300"
+                >
+                  Antique jewelry
+                </h3>
                 <p className="our-service-paragraph">
                   We buy and sell antique jewelry because we love the charm,
                   character and history that these pieces of jewelry have.
@@ -137,7 +183,14 @@ const WhatWeDo = () => {
                 <hr />
               </div>
               <div className="our-service-one">
-                <h3 className="our-service-heading">Expert valuations</h3>
+                <h3
+                  className="our-service-heading"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-offset="300"
+                >
+                  Expert valuations
+                </h3>
                 <p className="our-service-paragraph">
                   We offer independent expert valuations on gemstones and
                   jewelry. All of the jewelry that we manufacture comes with a
@@ -149,7 +202,12 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
-        <div className="title-ctn">
+        <div
+          className="title-ctn"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        >
           <h1 className="second-title">
             We believe in the ethical practices within the gemstone industry and
             the long lasting relationships with our clients and suppliers.

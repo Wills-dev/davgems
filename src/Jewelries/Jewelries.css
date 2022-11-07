@@ -36,8 +36,28 @@
   filter: grayscale(60%);
 }
 
+.title-ctn > p {
+  font-size: 20px;
+  font-family: "Alegreya Sans", sans-serif;
+  width: 80%;
+  color: #a8a6a6;
+}
+
+.title-ctn > p > span {
+  font-size: 40px;
+  font-family: "Satisfy", cursive;
+  color: #565555;
+  letter-spacing: 5px;
+}
+
 @media (min-width: 550px) {
   .jewellery-img {
     width: 50%;
+  }
+  .title-ctn > p {
+    font-size: 28px;
+  }
+  .title-ctn > p > span {
+    font-size: 60px;
   }
 }
