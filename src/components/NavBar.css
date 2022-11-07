@@ -68,7 +68,16 @@
   height: 80%;
   background-color: #454545;
   z-index: 21;
-  transform: translateX(0) scale(1);
+  animation: scaleAni 1s ease-in-out;
+}
+
+@keyframes scaleAni {
+  0% {
+    transform: translateY(100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
 }
 
 .display {

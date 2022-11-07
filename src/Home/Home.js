@@ -23,12 +23,7 @@ const Home = () => {
       <Header />
       <NavBar />
       <div className="main-body">
-        <div
-          className="title-ctn"
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          data-aos-offset="300"
-        >
+        <div className="title-ctn">
           <h2 className="first-title">FINE QUALITY GEMSTONE TRADERS</h2>
           <h1 className="second-title">
             Sharing our passion for fine and rare gemstones
@@ -71,8 +66,18 @@ const Home = () => {
         </div>
         <div className="journey-ctn">
           <div className="journey">
-            <div className="journey-ima-ctn image-one"></div>
-            <div className="journey-wrapper">
+            <div
+              className="journey-ima-ctn image-one"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            ></div>
+            <div
+              className="journey-wrapper "
+              data-aos="fade-left"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Opal Mining - Australia</h4>
                 <p className="journey-paragraph">
@@ -93,7 +98,12 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="journey ">
+          <div
+            className="journey "
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+          >
             <div className="journey-wrapper">
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Gemstone Traders - US</h4>
@@ -131,7 +141,12 @@ const Home = () => {
         </div>
 
         <div className="journey-ctn">
-          <div className="journey">
+          <div
+            className="journey"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+          >
             <div className="journey-ima-ctn image-three"></div>
             <div className="journey-wrapper">
               <div className="journey-paragraph-ctn">
@@ -161,7 +176,12 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="journey">
+          <div
+            className="journey"
+            data-aos="fade-zoom-in"
+            data-aos-duration="2000"
+            data-aos-offset="300"
+          >
             <div className="journey-wrapper">
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">
@@ -198,7 +218,12 @@ const Home = () => {
             <div className="journey-ima-ctn image-four"></div>
           </div>
         </div>
-        <div className="certification">
+        <div
+          className="certification"
+          data-aos="fade-zoom-in"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        >
           <p>
             Our gemstones have certificates from the most reputable gem
             laboratories in the world such as <br />
@@ -212,7 +237,12 @@ const Home = () => {
             will both be of great quality.'
           </p>
         </div>
-        <div className="quote-img-ctn">
+        <div
+          className="quote-img-ctn"
+          data-aos="fade-zoom-in"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        >
           <div className="quote-img-one"></div>
           <div className="quote-img-two"></div>
         </div>
@@ -227,7 +257,12 @@ const Home = () => {
             We specialise in a wide variety of coloured gemstones and diamonds
           </h1>
         </div>
-        <div className="journey-ctn">
+        <div
+          className="journey-ctn"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        >
           <div className="journey">
             <div className="journey-ima-ctn image-five"></div>
             <div className="journey-wrapper">
@@ -289,7 +324,12 @@ const Home = () => {
             One-of-a-kind Bespoke jewelry Antique Jewellery
           </h1>
         </div>
-        <div className="journey-ctn">
+        <div
+          className="journey-ctn"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        >
           <div className="journey">
             <div className="journey-ima-ctn image-seven"></div>
             <div className="journey-wrapper">
