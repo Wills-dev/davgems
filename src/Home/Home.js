@@ -73,13 +73,13 @@ const Home = () => {
           <div className="journey">
             <div
               className="journey-ima-ctn image-one"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="2000"
               data-aos-offset="300"
             ></div>
             <div
               className="journey-wrapper "
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-duration="2000"
               data-aos-offset="300"
             >
