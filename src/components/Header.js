@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/wills (3).png";
+import logo from "../assets/images/wills__4_-removebg-preview.png";
 
 import "./Header.css";
 

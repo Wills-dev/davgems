@@ -4,7 +4,7 @@ import "./ContactCom.css";
 
 import partnerOne from "../assets/images/international.webp";
 import partnerTwo from "../assets/images/accredited.webp";
-import logo from "../assets/images/wills (3).png";
+import logo from "../assets/images/wills__4_-removebg-preview.png";
 
 const ContactCom = () => {
   return (

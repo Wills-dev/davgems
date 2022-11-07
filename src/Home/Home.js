@@ -48,7 +48,12 @@ const Home = () => {
             </Fade>
           </div>
         </div>
-        <div className="about-uss-ctn">
+        <div
+          className="about-uss-ctn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
           <Link to="/about-us">
             <div className="about-uss">About us...</div>
           </Link>
@@ -56,7 +61,7 @@ const Home = () => {
         <div
           className="title-ctn"
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           data-aos-offset="300"
         >
           <h2 className="first-title">OUR JOURNEY IN THE WORLD OF GEMS</h2>
@@ -98,13 +103,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div
-            className="journey "
-            data-aos="fade-up"
-            data-aos-duration="2000"
-            data-aos-offset="300"
-          >
-            <div className="journey-wrapper">
+          <div className="journey ">
+            <div
+              className="journey-wrapper"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Gemstone Traders - US</h4>
                 <p className="journey-paragraph">
@@ -125,15 +130,30 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="journey-ima-ctn image-two"></div>
+            <div
+              className="journey-ima-ctn image-two"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            ></div>
           </div>
         </div>
-        <div className="about-uss-ctn">
+        <div
+          className="about-uss-ctn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
           <Link to="/about-us">
             <div className="about-uss">Find out more...</div>
           </Link>
         </div>
-        <div className="title-ctn">
+        <div
+          className="title-ctn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
           <h2 className="first-title">PEARL ASSET GEMSTONE TRADERS</h2>
           <h1 className="second-title">
             Based in Benbrook the heart of Texas' Jewelry district
@@ -147,8 +167,18 @@ const Home = () => {
             data-aos-duration="2000"
             data-aos-offset="300"
           >
-            <div className="journey-ima-ctn image-three"></div>
-            <div className="journey-wrapper">
+            <div
+              className="journey-ima-ctn image-three"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            ></div>
+            <div
+              className="journey-wrapper"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">
                   Gemstone Dealers and Experts
@@ -176,13 +206,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div
-            className="journey"
-            data-aos="fade-zoom-in"
-            data-aos-duration="2000"
-            data-aos-offset="300"
-          >
-            <div className="journey-wrapper">
+          <div className="journey">
+            <div
+              className="journey-wrapper"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">
                   Gemstones of Exceptional Quality
@@ -215,7 +245,12 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="journey-ima-ctn image-four"></div>
+            <div
+              className="journey-ima-ctn image-four"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            ></div>
           </div>
         </div>
         <div
@@ -246,26 +281,41 @@ const Home = () => {
           <div className="quote-img-one"></div>
           <div className="quote-img-two"></div>
         </div>
-        <div className="about-uss-ctn">
+        <div
+          className="about-uss-ctn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
           <Link to="/what-we-do">
             <div className="about-uss">What we do</div>
           </Link>
         </div>
-        <div className="title-ctn">
+        <div
+          className="title-ctn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
           <h2 className="first-title">GEMSTONE SPECIALISTS</h2>
           <h1 className="second-title">
             We specialise in a wide variety of coloured gemstones and diamonds
           </h1>
         </div>
-        <div
-          className="journey-ctn"
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          data-aos-offset="300"
-        >
+        <div className="journey-ctn">
           <div className="journey">
-            <div className="journey-ima-ctn image-five"></div>
-            <div className="journey-wrapper">
+            <div
+              className="journey-ima-ctn image-five"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            ></div>
+            <div
+              className="journey-wrapper"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Our Expertise</h4>
                 <p className="journey-paragraph">
@@ -289,7 +339,12 @@ const Home = () => {
             </div>
           </div>
           <div className="journey ">
-            <div className="journey-wrapper">
+            <div
+              className="journey-wrapper"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">Passion for Gemstones</h4>
                 <p className="journey-paragraph">
@@ -310,30 +365,50 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="journey-ima-ctn image-six"></div>
+            <div
+              className="journey-ima-ctn image-six"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            ></div>
           </div>
         </div>
-        <div className="about-uss-ctn">
+        <div
+          className="about-uss-ctn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
           <Link to="/gemstones">
             <div className="about-uss">Gemstones</div>
           </Link>
         </div>
-        <div className="title-ctn">
+        <div
+          className="title-ctn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="300"
+        >
           <h2 className="first-title">FINE JEWELLERY</h2>
           <h1 className="second-title">
             One-of-a-kind Bespoke jewelry Antique Jewellery
           </h1>
         </div>
-        <div
-          className="journey-ctn"
-          data-aos="fade-up"
-          data-aos-duration="2000"
-          data-aos-offset="300"
-        >
+        <div className="journey-ctn">
           <div className="journey">
-            <div className="journey-ima-ctn image-seven"></div>
+            <div
+              className="journey-ima-ctn image-seven"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            ></div>
             <div className="journey-wrapper">
-              <div className="journey-paragraph-ctn">
+              <div
+                className="journey-paragraph-ctn"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-offset="300"
+              >
                 <h4 className="journey-country">Unique Bespoke Jewellery</h4>
                 <p className="journey-paragraph">
                   Our many years of expertise in the jewelry industry has
@@ -359,7 +434,12 @@ const Home = () => {
             </div>
           </div>
           <div className="journey ">
-            <div className="journey-wrapper">
+            <div
+              className="journey-wrapper"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               <div className="journey-paragraph-ctn">
                 <h4 className="journey-country">
                   Exceptional Quality and Craftsmanship
@@ -391,7 +471,12 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="journey-ima-ctn image-eight"></div>
+            <div
+              className="journey-ima-ctn image-eight"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            ></div>
           </div>
         </div>
         <div className="about-uss-ctn">
