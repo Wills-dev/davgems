@@ -12,6 +12,7 @@ import ContactCom from "../components/ContactCom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import NavBar from "../components/NavBar";
+import PhoneNumber from "../components/PhoneNumber";
 
 const Home = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const Home = () => {
   return (
     <div className="main">
       <Header />
+      <PhoneNumber />
       <NavBar />
       <div className="main-body">
         <div className="title-ctn">

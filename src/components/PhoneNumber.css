@@ -1,0 +1,19 @@
+.phone-ctn {
+  display: flex;
+  position: fixed;
+  z-index: 15;
+  top: 1.2rem;
+  left: 3%;
+  cursor: pointer;
+}
+
+.phone-ctn i {
+  font-size: 16px;
+  color: #454545;
+}
+
+@media (min-width: 700px) {
+  .phone-ctn {
+    display: none;
+  }
+}
