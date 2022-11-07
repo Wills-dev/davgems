@@ -84,17 +84,39 @@ const Home = () => {
               data-aos-offset="300"
             >
               <div className="journey-paragraph-ctn">
-                <h4 className="journey-country">Opal Mining - Australia</h4>
-                <p className="journey-paragraph">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
+                  Opal Mining - Australia
+                </h4>
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Our story began in the opal mining fields of Lighting Ridge
                   Australia thirty five years ago.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   This initial exposure in the world of gems lead to a life long
                   passion for fine coloured gemstones and a career in the
                   fascinating world of coloured gemstones.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Today, we have made a name for ourselves in America, the
                   country where jewelry is styled most frequently. Here, we
                   source and provide excellent colored gemstones to some of the
@@ -111,17 +133,39 @@ const Home = () => {
               data-aos-offset="300"
             >
               <div className="journey-paragraph-ctn">
-                <h4 className="journey-country">Gemstone Traders - US</h4>
-                <p className="journey-paragraph">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
+                  Gemstone Traders - US
+                </h4>
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   We are involved in all aspects of the process of jewelry
                   making.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   From sourcing rough gems, cutting and polishing them to
                   designing bespoke one-of-a-kind pieces of jewelry for our
                   private clients.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   We are passionate about our industry and are involved in the
                   ethical sourcing of gemstones and play an active role in the
                   efforts of the International Coloured Gemstone Association
@@ -180,24 +224,49 @@ const Home = () => {
               data-aos-offset="300"
             >
               <div className="journey-paragraph-ctn">
-                <h4 className="journey-country">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Gemstone Dealers and Experts
                 </h4>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   United States is home to one of the world’s jewelry centers.
                   Fine quality color gemstones are the focus and specialty of
                   Pearl Asset Gems Ltd.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   A personal passion and life long interest for sourcing and
                   supplying unusual and rare gemstones for our clients, means
                   that we are constantly on the hunt for fine exceptional
                   gemstones.
                 </p>
-                <h4 className="journey-country">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Gemstones Direct from the Source
                 </h4>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Visiting important international gemstone exhibitions around
                   the world and mines every year is important to us. Sourcing
                   gemstones of exceptional quality at the best possible price is
@@ -213,11 +282,21 @@ const Home = () => {
               data-aos-duration="2000"
               data-aos-offset="300"
             >
-              <div className="journey-paragraph-ctn">
+              <div
+                className="journey-paragraph-ctn"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+                data-aos-offset="300"
+              >
                 <h4 className="journey-country">
                   Gemstones of Exceptional Quality
                 </h4>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   The gemstones we deal in are of the highest quality and
                   standards. Whether it is an amethyst or a ruby, one thing is
                   certain that they will both be of great quality.The gemstones
@@ -225,20 +304,40 @@ const Home = () => {
                   it is an amethyst or a ruby, one thing is certain that they
                   will both be of great quality.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   We work with a wide variety of fine coloured gemstones and are
                   able to source gemstones according to our client's
                   specifications, such as, colour, shape and price range.
                 </p>
-                <h4 className="journey-country">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Commitment to Ethical Practices
                 </h4>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   We have a commitment to fair trade and ethical practices where
                   we are actively involved through the International Coloured
                   Gemstone Association (ICA).
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Chosen to be one of the European Directors of the ICA enables
                   us to support these practices.
                 </p>
@@ -317,19 +416,41 @@ const Home = () => {
               data-aos-offset="300"
             >
               <div className="journey-paragraph-ctn">
-                <h4 className="journey-country">Our Expertise</h4>
-                <p className="journey-paragraph">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
+                  Our Expertise
+                </h4>
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   We specialise in a wide variety of fine coloured gemstones and
                   coloured diamonds. Through our extensive worldwide network of
                   contacts we are able to source gemstones from all over the
                   world at the best possible prices.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   We always strive to listen to our clients needs and
                   specifications and aim to offer suitable solutions that meet
                   with their expectations.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   We frequently offer our clients our expert advice on coloured
                   gemstones discussing with their jewelry designers and
                   manufacturers the availability price and supply of their
@@ -346,19 +467,41 @@ const Home = () => {
               data-aos-offset="300"
             >
               <div className="journey-paragraph-ctn">
-                <h4 className="journey-country">Passion for Gemstones</h4>
-                <p className="journey-paragraph">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
+                  Passion for Gemstones
+                </h4>
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   It's an exciting process and certainly very rewarding to see
                   our gems being used by some of the best jewelry designers and
                   jewelry houses in the world.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Ranging from ruby, sapphire, emerald, opal, aquamarine,
                   tsavorite, tourmaline, rubellite, fine moonstone to pink
                   diamonds and other gemstones, our main aim is to supply
                   gemstones of fine quality.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Whether it is an amethyst or a ruby, one thing is certain that
                   they will both be of exceptional quality.
                 </p>
@@ -409,8 +552,21 @@ const Home = () => {
                 data-aos-duration="2000"
                 data-aos-offset="300"
               >
-                <h4 className="journey-country">Unique Bespoke Jewellery</h4>
-                <p className="journey-paragraph">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                  v
+                >
+                  Unique Bespoke Jewellery
+                </h4>
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Our many years of expertise in the jewelry industry has
                   enabled us to develop and build trusted relationships with our
                   very own private clients, of whom many we are now fortunate
@@ -418,10 +574,20 @@ const Home = () => {
                   commission us to manufacture for them and their families
                   unique bespoke jewelry.
                 </p>
-                <h4 className="journey-country">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   The Jewellery Design Process
                 </h4>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Our approach to designing jewelry has always been to firstly
                   listen carefully to the client’s desires and requirements and
                   then guide them through the process providing them with
@@ -444,7 +610,12 @@ const Home = () => {
                 <h4 className="journey-country">
                   Exceptional Quality and Craftsmanship
                 </h4>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Once designs have been approved, we manufacture their chosen
                   piece using some of the best jewelry manufacturers in the US.
                   We are really passionate about high quality manufacturing with
@@ -452,10 +623,20 @@ const Home = () => {
                   and skills allowing them to feel confident about the whole
                   process.
                 </p>
-                <h4 className="journey-country">
+                <h4
+                  className="journey-country"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   The Uniqueness of Personalised Design
                 </h4>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   Designing a bespoke piece of jewelry, whether it is an
                   engagement ring, an anniversary gift or any other occasion, is
                   a really unique and exciting process to go through, as it
@@ -463,7 +644,12 @@ const Home = () => {
                   the opportunity to add their very own touch of
                   personalisation.
                 </p>
-                <p className="journey-paragraph">
+                <p
+                  className="journey-paragraph"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-offset="300"
+                >
                   We take great pride in our jewelry and the trust our clients
                   place in us and believe that each piece of jewelry designed
                   and manufactured should enhance the wearers’ experience and
