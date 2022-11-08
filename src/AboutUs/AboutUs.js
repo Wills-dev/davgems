@@ -6,11 +6,13 @@ import "./AboutUs.css";
 import "../Home/Home.css";
 import background from "../assets/images/IMG_1536.jpg";
 import NavBar from "../components/NavBar";
+import PhoneNumber from "../components/PhoneNumber";
 
 const AboutUs = () => {
   return (
     <div className="main">
       <Header />
+      <PhoneNumber />
       <NavBar />
       <div className="main-body">
         <div className="title-ctn">

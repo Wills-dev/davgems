@@ -16,6 +16,7 @@ import NavBar from "../components/NavBar";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import PhoneNumber from "../components/PhoneNumber";
 
 const Jewelries = () => {
   const jewel = [
@@ -63,6 +64,7 @@ const Jewelries = () => {
   return (
     <div className="main">
       <Header />
+      <PhoneNumber />
       <NavBar />
       <div className="main-body">
         <div className="title-ctn">

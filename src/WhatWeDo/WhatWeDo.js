@@ -6,6 +6,7 @@ import NavBar from "../components/NavBar";
 import "./WhatWeDo.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import PhoneNumber from "../components/PhoneNumber";
 
 const WhatWeDo = () => {
   useEffect(() => {
@@ -15,6 +16,7 @@ const WhatWeDo = () => {
   return (
     <div className="main">
       <Header />
+      <PhoneNumber />
       <NavBar />
       <div className="main-body">
         <div className="title-ctn">
