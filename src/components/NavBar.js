@@ -3,7 +3,7 @@ import "./NavBar.css";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   const handleClick = (event) => {
     setIsActive((current) => !current);
