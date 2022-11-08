@@ -36,7 +36,10 @@ a {
   font-size: 12px;
 }
 
-.nav-ctn a:active,
+a.active {
+  border-bottom: 1px solid #282828;
+}
+
 .nav-ctn a:hover {
   color: #282828;
   border-bottom: 1px solid #282828;

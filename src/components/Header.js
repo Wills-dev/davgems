@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../assets/images/wills__4_-removebg-preview.png";
 
 import "./Header.css";
@@ -8,33 +8,33 @@ const Header = () => {
   return (
     <div className="header-ctn">
       <div className="logo">
-        <Link to="/">
+        <NavLink to="/">
           <img src={logo} alt="logo" />
-        </Link>
+        </NavLink>
       </div>
       <div className="nav-ctn">
         <div className="link">
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </div>{" "}
         |
         <div className="link">
-          <Link to="/about-us">About us</Link>
+          <NavLink to="/about-us">About us</NavLink>
         </div>
         |{" "}
         <div className="link">
-          <Link to="/what-we-do">What we do</Link>
+          <NavLink to="/what-we-do">What we do</NavLink>
         </div>
         |{" "}
         <div className="link">
-          <Link to="/gemstones">Gemstones</Link>
+          <NavLink to="/gemstones">Gemstones</NavLink>
         </div>
         |{" "}
         <div className="link">
-          <Link to="/jewelries">Jewelry</Link>
+          <NavLink to="/jewelries">Jewelry</NavLink>
         </div>
         |
         <div className="link">
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact">Contact</NavLink>
         </div>
       </div>
     </div>

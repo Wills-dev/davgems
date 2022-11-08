@@ -7,7 +7,6 @@ const NavBar = () => {
 
   const handleClick = (event) => {
     setIsActive((current) => !current);
-    console.log("isActive", isActive);
   };
   return (
     <div>
