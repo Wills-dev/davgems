@@ -9,6 +9,14 @@ body {
   background-color: #faf1ef;
 }
 
+.active {
+  border-bottom: 1px solid #282828;
+}
+
+.aactive {
+  border-bottom: 1px solid #fff;
+}
+
 .logo {
   max-width: 6rem;
 }

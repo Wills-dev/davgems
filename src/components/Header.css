@@ -36,9 +36,9 @@ a {
   font-size: 12px;
 }
 
-/* a.active {
+.active {
   border-bottom: 1px solid #282828;
-} */
+}
 
 .nav-ctn a:hover {
   color: #282828;

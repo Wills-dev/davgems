@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   const [isActive, setIsActive] = useState(true);
@@ -21,24 +21,67 @@ const NavBar = () => {
         </div>
         <div className={isActive ? "side-bar" : "activated"}>
           <div class="navigations">
-            <Link to="/" class="navigation-item ">
-              Home
-            </Link>
-            <Link to="/about-us" class="navigation-item">
-              About us
-            </Link>
-            <Link to="/what-we-do" class="navigation-item">
-              What we do
-            </Link>
-            <Link to="/gemstones" class="navigation-item">
-              GemStone
-            </Link>
-            <Link to="/jewelries" class="navigation-item">
-              Jewelry
-            </Link>
-            <Link to="/contact" class="navigation-item">
-              Contact
-            </Link>
+            <div className="navigation-item">
+              <NavLink
+                to="/"
+                className={({ isActive }) => {
+                  return isActive && "aactive";
+                }}
+                end
+              >
+                Home
+              </NavLink>
+            </div>
+            <div className="navigation-item">
+              <NavLink
+                to="/about-us"
+                className={({ isActive }) => {
+                  return isActive && "aactive";
+                }}
+              >
+                About us
+              </NavLink>
+            </div>
+            <div className="navigation-item">
+              <NavLink
+                to="/what-we-do"
+                className={({ isActive }) => {
+                  return isActive && "aactive";
+                }}
+              >
+                What we do
+              </NavLink>
+            </div>
+            <div className="navigation-item">
+              <NavLink
+                to="/gemstones"
+                className={({ isActive }) => {
+                  return isActive && "aactive";
+                }}
+              >
+                GemStone
+              </NavLink>
+            </div>
+            <div className="navigation-item">
+              <NavLink
+                to="/jewelries"
+                className={({ isActive }) => {
+                  return isActive && "aactive";
+                }}
+              >
+                Jewelry
+              </NavLink>
+            </div>
+            <div className="navigation-item">
+              <NavLink
+                to="/contact"
+                className={({ isActive }) => {
+                  return isActive && "aactive";
+                }}
+              >
+                Contact
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
