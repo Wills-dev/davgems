@@ -158,7 +158,8 @@ const Home = () => {
         >
           <h2 className="first-title">PEARL ASSET GEMSTONE TRADERS</h2>
           <h1 className="second-title">
-            Based in Benbrook the heart of Texas' Jewelry district
+            Based in United states, one of the significant gemstone producer
+            worldwide
           </h1>
         </div>
 
