@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import { Link } from "react-router-dom";
 import "./AboutUs.css";
 import "../Home/Home.css";
-import background from "../assets/images/IMG_1536.jpg";
+import background from "../assets/images/F821B0C6-A957-4B39-BE47-552F282164BB.jpg";
 import NavBar from "../components/NavBar";
 import PhoneNumber from "../components/PhoneNumber";
 
@@ -81,7 +81,7 @@ const AboutUs = () => {
                 treasurer of the ICA in 2018.
               </p>
               <p className="ceo-name">
-                Martin Webb <br /> Owner and CEO Pearl Asset Gem Ltd
+                Jerry Silva <br /> Owner and CEO Pearl Asset Gem Ltd
               </p>
             </div>
           </div>

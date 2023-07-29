@@ -59,6 +59,7 @@ const ContactCom = () => {
             <p>501 Winscott Rd, Benbrook Tx 76126. </p>
             <p>266 Stebbings Ct, Bradley, IL 60915</p>
             <p>2370 Quinland Lake Rd, Cookeville, TN 38301. </p>
+            <p>13234 Blissfield Rd, Odessa FL 33556</p>
             <p>Tel +1 423-603-2719</p>
             <p>Tel +1 (817) 546-0043</p>
             <p style={{ color: "red" }}>
